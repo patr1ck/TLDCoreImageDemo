@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDC6ADA6155C63AA00D06B97 /* TLDCoreImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLDCoreImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC6ADA6155C63AA00D06B97 /* CIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC6ADAA155C63AA00D06B97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CDC6ADAC155C63AA00D06B97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDC6ADAE155C63AA00D06B97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,7 +76,7 @@
 		CDC6ADA7155C63AA00D06B97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDC6ADA6155C63AA00D06B97 /* TLDCoreImageDemo.app */,
+				CDC6ADA6155C63AA00D06B97 /* CIDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,6 @@
 				CDC6ADD1155C70B200D06B97 /* TLDFastCoreImageView.m */,
 				CDC6ADB1155C63AA00D06B97 /* Supporting Files */,
 			);
-			name = TLDCoreImageDemo;
 			path = TLDCoreImageDemo;
 			sourceTree = "<group>";
 		};
@@ -141,7 +140,7 @@
 			);
 			name = TLDCoreImageDemo;
 			productName = TLDSlowCoreImage;
-			productReference = CDC6ADA6155C63AA00D06B97 /* TLDCoreImageDemo.app */;
+			productReference = CDC6ADA6155C63AA00D06B97 /* CIDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -272,7 +271,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLDCoreImageDemo/TLDCoreImageDemo-Prefix.pch";
 				INFOPLIST_FILE = "TLDCoreImageDemo/TLDCoreImageDemo-Info.plist";
-				PRODUCT_NAME = TLDCoreImageDemo;
+				PRODUCT_NAME = CIDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,7 +282,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLDCoreImageDemo/TLDCoreImageDemo-Prefix.pch";
 				INFOPLIST_FILE = "TLDSCoreImageDemo/TLDCoreImageDemo-Info.plist";
-				PRODUCT_NAME = TLDCoreImageDemo;
+				PRODUCT_NAME = CIDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
