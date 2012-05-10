@@ -70,18 +70,11 @@
     
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, depthBuffer);
     
+    glBindRenderbuffer(GL_RENDERBUFFER, renderBuffer);
+    
     GLenum status = glCheckFramebufferStatus(GL_FRAMEBUFFER) ;
     if(status != GL_FRAMEBUFFER_COMPLETE) {
         NSLog(@"ERROR: Failed to make complete framebuffer object %x", status);
-    }
-    
-    glBindRenderbuffer(GL_RENDERBUFFER, renderBuffer);
-    
-    glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_WIDTH, &backingWidth);
-    glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_HEIGHT, &backingHeight);
-    
-    if (glCheckFramebufferStatus(GL_FRAMEBUFFER) != GL_FRAMEBUFFER_COMPLETE) {
-        NSLog(@"ERROR: Failed to make complete framebuffer object %x", glCheckFramebufferStatus(GL_FRAMEBUFFER));
     } else {
         glViewport(0, 0, backingWidth, backingHeight);
         [self drawView];
