@@ -43,6 +43,7 @@
         CGContextScaleCTM(context, 1.0f, -1.0f);
         CGContextDrawImage(context, rect, imageRef);        
     CGContextRestoreGState(context);
+    CGImageRelease(imageRef);
 }
 
 

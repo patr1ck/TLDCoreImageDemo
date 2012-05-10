@@ -281,7 +281,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLDCoreImageDemo/TLDCoreImageDemo-Prefix.pch";
-				INFOPLIST_FILE = "TLDSCoreImageDemo/TLDCoreImageDemo-Info.plist";
+				INFOPLIST_FILE = "TLDCoreImageDemo/TLDCoreImageDemo-Info.plist";
 				PRODUCT_NAME = CIDemo;
 				WRAPPER_EXTENSION = app;
 			};
